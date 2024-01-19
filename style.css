@@ -70,10 +70,16 @@ p {
 
 .copo-pequeno {
     width: 60px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.copo-pequeno:hover {
+    transform: translateY(-35px);
 }
 
 .circulo {
-    background-color: #017143;
+    background: #017143;
     width: 100%;
     height: 100%;
     position: absolute;
